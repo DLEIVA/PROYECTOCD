@@ -8,4 +8,4 @@ mydat <- read_sav('datos.sav')
 set.seed(321)
 
 mydat2 <- data.frame(matrix(rnorm(3000),100,30))
-colnames(mydat2) <- paste0('V',1:3)
+colnames(mydat2) <- paste0('V',1:30)
